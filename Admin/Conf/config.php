@@ -20,7 +20,7 @@ $array = array(
         'RBAC_USER_TABLE'           =>'gd_role_user',
         'RBAC_ACCESS_TABLE'         =>'gd_access',
         'RBAC_NODE_TABLE'           =>'gd_node',
-        'SHOW_PAGE_TRACE'=>1//显示调试信息
+        'SHOW_PAGE_TRACE'=>0//显示调试信息
 );
 return array_merge($config, $array);
 ?>

@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+/* 全局样式 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body{background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";}
+a{text-decoration:none;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+#adminbar *{color:#CCCCCC}
+#wpwrap{height:auto;min-height:100%;position:relative;width:100%;}
+#adminbar{background-color: #464646;color:#CCCCCC;direction:1tr;font:13px/28px sans-serif;height:38px;left:0;min-width:600px;position:fixed;top:0;width:100%;z-index:99999;}
+#adminbar .quicklinks{border-left:1px solid transparent;}
+#wpwrap li{float:left;}
+#adminbar .quicklinks ul{text-align:left;}
+#adminbar .quicklinks > ul > li{border-right:2px solid #555555;}
+#adminbar .quicklinks a{height:38px;display:block;margin:0;padding:0 12px;line-height:38px;}
+.top_left{float:left;}
+.top_right{float:right;}
+
+
+#adminmenubg{background-color:#ECECEC;}
+.adminmenu{margin:0;padding-top:20px;}
+#adminmenubg ul li{height:30px;text-align:center;line-height:30px;font-size:14px;font-weight:bold;background:#dedede;margin-bottom:5px;overflow:hidden;}

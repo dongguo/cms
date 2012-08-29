@@ -2,10 +2,11 @@
 
 class IndexAction extends CommonAction {
     public function index(){
-        echo "index 下面的index";
+
+    	$this->display();
     }
-    public function add(){
-    	echo "index 下面的add";
+    public function setting(){
+    	$this->display();
     }
     public function del(){
     	echo "index 下面的del";

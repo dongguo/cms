@@ -8,5 +8,6 @@ return array(
 	'DB_PWD'  => '123456',
 	'DB_PORT' => '3306',
 	'DB_PREFIX' => 'gd_',
-	'SHOW_PAGE_TRACE' => 'true', //显示调试信息	
+	'TMPL_STRIP_SPACE' => false,
+	'SHOW_PAGE_TRACE' => false, //显示调试信息	
 );
