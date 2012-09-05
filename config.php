@@ -1,6 +1,6 @@
 <?php
 return array(
-	'URL_MODEL' => 3, //兼容模式
+	'URL_MODEL' => 1,
 	'DB_TYPE' => 'mysql',
 	'DB_HOST' => 'localhost',
 	'DB_NAME' => 'cms',

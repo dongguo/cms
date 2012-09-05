@@ -20,3 +20,7 @@ select,input,img,select{vertical-align:middle;}
 #adminmenubg{background-color:#ECECEC;}
 .adminmenu{margin:0;padding-top:20px;}
 #adminmenubg ul li{height:30px;text-align:center;line-height:30px;font-size:14px;font-weight:bold;background:#dedede;margin-bottom:5px;overflow:hidden;}
+
+.content{width:100%;margin-top:38px;}
+.left{width:20%; float:left;}
+.right{width:80%; float:right;}

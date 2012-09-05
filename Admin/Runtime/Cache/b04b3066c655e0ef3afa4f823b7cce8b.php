@@ -28,3 +28,27 @@
 	</div>
 </body>
 </html>
+		
+<div class="content">
+	<div class="left">
+	
+	<div id="adminmenubg">
+		<ul class="adminmenu">
+			<li><a href="__APP__/index/index">网站信息</a></li>
+			<li><a href="__APP__/index/setting">站点设置</a></li>
+			<li><a href="">网站信息</a></li>
+			<li><a href="">网站信息</a></li>
+		</ul>
+	</div>
+
+
+
+	</div>
+	<div class="right">
+	<?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><span><?php echo ($key); ?></span><span><?php echo ($v); ?></span><br /><?php endforeach; endif; else: echo "" ;endif; ?>
+	</div>
+</div>
+	</div>
+</body>
+
+</html>
