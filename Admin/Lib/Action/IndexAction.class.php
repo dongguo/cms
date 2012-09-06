@@ -21,6 +21,11 @@ class IndexAction extends CommonAction {
     	$this->assign('website', $website);
     	$this->display();
     }
+    public function settings(){
+    	$data = $_POST;
+    	$website = M("Website")->where('id=1')->save($data);
+    	$this->success("更新成功");
+    }
     public function del(){
     	echo "index 下面的del";
     }

@@ -1,0 +1,45 @@
+<include file="Public:header" />
+<div class="content">
+	<div class="left">
+	<include file="Public:menu" />
+	</div>
+	<div class="right">
+<switch name="dsp" >
+<case value="add">
+添加&nbsp;&nbsp;<a href="__URL__">返回列表</a>
+<form action="__URL__/adds" method="post">
+	导航名称<input type="text" name="title" /><br />
+	链接<input type="text" name="link" /><br />
+	<input type="submit" name="sub" value="提交" />
+</form>
+
+</case>
+<case value="edit">
+编辑&nbsp;&nbsp;<a href="__URL__">返回列表</a>
+<form action="__URL__/edits" method="post">
+	导航名称<input type="text" name="title" value="{$info[0]['title']}"/><br />
+	链接<input type="text" name="link" value="{$info[0]['link']}"  /><br />
+	<input type="submit" name="sub" value="提交" />
+</form>
+</case>
+
+
+<default />
+	<a href="__URL__/add">添加导航</a><br />
+	<volist name="navinfo" id="n">
+
+{$n.id}
+
+{$n.title}
+
+{$n.link}
+{$n.sort}
+&nbsp;&nbsp;<a href="__URL__/edit/id/{$n.id}">修改</a>&nbsp;&nbsp;删除
+<br />
+
+	</volist>
+</switch>
+
+	</div>
+</div>
+<include file="Public:footer" />
